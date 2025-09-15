@@ -1,0 +1,15 @@
+MultiGestureLib    KEYWORD1
+addProximitySensor KEYWORD2
+addUltrasonicSensor KEYWORD2
+setLayout          KEYWORD2
+setThresholdCm     KEYWORD2
+setProximityActiveHigh KEYWORD2
+setSwipeTimeout    KEYWORD2
+setDebounceMs      KEYWORD2
+update             KEYWORD2
+onSwipeLeft        KEYWORD2
+onSwipeRight       KEYWORD2
+onSwipeUp          KEYWORD2
+onSwipeDown        KEYWORD2
+onCircleCW         KEYWORD2
+onCircleCCW        KEYWORD2

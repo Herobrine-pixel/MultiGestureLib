@@ -1,0 +1,40 @@
+{
+  "name": "MultiGestureLib",
+  "version": "1.0.0",
+  "description": "Universal gesture detection using low-cost sensors (IR proximity and HC-SR04 ultrasonic).",
+  "keywords": [
+    "gesture",
+    "sensor",
+    "ultrasonic",
+    "IR",
+    "proximity",
+    "touchless"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herobrine-sah/MultiGestureLib"
+  },
+  "authors": [
+    {
+      "name": "Herobrine Sah",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "atmelavr",
+    "espressif32",
+    "espressif8266",
+    "ststm32"
+  ],
+  "build": {
+    "includeDir": "src"
+  },
+  "examples": [
+    "examples/SwipeIR/SwipeIR.ino",
+    "examples/SwipeUltrasonic/SwipeUltrasonic.ino"
+  ]
+}
