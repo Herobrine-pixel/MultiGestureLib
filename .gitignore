@@ -1,0 +1,37 @@
+# Ignore build and temp files
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.class
+*.pyc
+*.pyo
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Arduino / PlatformIO build outputs
+.build/
+.pio/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Backup files
+*.bak
+*.tmp
+*.log
+
+# VSCode / IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Arduino IDE specific
+*.elf
+*.hex
+
+# Library manager downloads
+__MACOSX/
